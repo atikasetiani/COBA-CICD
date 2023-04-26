@@ -2,7 +2,7 @@ Feature: Messages
 
 
   Scenario: Send a message to another user
-    Given I am on the main LinkedIn page
+    Given I am on the LinkedIn page
     When I click the Messaging button
     And I entered the destination username
     And I typed the message, example Hello, how are you?

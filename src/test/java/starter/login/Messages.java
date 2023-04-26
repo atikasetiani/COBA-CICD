@@ -3,7 +3,7 @@ package starter.login;
 import net.thucydides.core.annotations.Step;
 
 public class Messages {
-    @Step("I am on the main LinkedIn page")
+    @Step("I am on the LinkedIn page")
     public void onTheLinkedInPage(){
         System.out.println("I am on the main LinkedIn page");
     }
