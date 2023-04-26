@@ -10,7 +10,7 @@ import starter.login.Messages;
 public class MessagesSteps {
     @Steps
     Messages login;
-    @Given("I am on the main LinkedIn page")
+    @Given("I am on the LinkedIn page")
     public void onTheLinkedInPage(){
         login.onTheLinkedInPage();
     }
